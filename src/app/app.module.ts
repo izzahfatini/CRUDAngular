@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { OrdersModule } from './orders/orders.module';
+import { SideFrameworkModule } from './side-framework/side-framework.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { OrdersModule } from './orders/orders.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OrdersModule
+    OrdersModule,
+    SideFrameworkModule
   ],
   providers: [],
   bootstrap: [AppComponent]
